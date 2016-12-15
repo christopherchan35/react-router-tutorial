@@ -1,3 +1,8 @@
+import React from 'react'
+import { renderToString} from 'react-dom/server'
+import { match, RouterContext } from 'react-router'
+import routes from './modules/routes'
+
 var express = require('express')
 var path = require('path')
 var compression = require('compression')
